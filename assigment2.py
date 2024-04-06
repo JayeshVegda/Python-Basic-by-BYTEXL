@@ -1,8 +1,10 @@
-listo = [3,4,1,5 , 8 , 8 , 7 , 8, 6 ]
+listo = [3,4,1,5 , 8 , 6, 8  , 8, 6 , 7]
 value = 1
 val = 1
 
-
+"""
+HELLO WORD 
+"""
 if(7 in listo):
     s1 = listo.index(7)
     s2 = len(listo) - 1
