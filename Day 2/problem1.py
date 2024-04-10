@@ -1,6 +1,6 @@
-month = int(input("Enter Number of Month : ")) 
-
 try:
+    month = int(input("Enter Number of Month : ")) 
+
     if(month<=12):
         if (2 == month):
             year = int(input("Enter Number of Year : "))
@@ -16,5 +16,5 @@ try:
         print("Month is not Valid")
 
 
-except e:
-    print("Error Occure", e)
+except ValueError:
+        print("Invalid input. Please enter a number.")
